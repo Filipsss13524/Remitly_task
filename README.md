@@ -4,21 +4,21 @@ Write a method verifying the input JSON data. Input data format is defined as AW
 Method should return logical false if an input JSON Resource field contains a single asterisk and true in any other case. 
 
 ## Table of Contents
-* [General info](#general info)
+* [General info](#general_info)
 * [Setup](#setup)
 * [Technologies](#technologies)
 
 ## General info
 The project was made in two versions, with and without the use of the pandas library.
-*resource_checker_pandas - using pandas (you can comment out this part of the code if needed)
-*resource_checker_function - without using pandas
+* resource_checker_pandas - using pandas (you can comment out this part of the code if needed)
+* resource_checker_function - without using pandas
 
 Sample test files have also been prepared:
-*date.json - "*" in Resource
-*date_v1.json - "text" in Resource
-*date_v2.json - Error in name PolicyDocument
-*date_v3.json - ["*"] in Resource - one element with []
-*date_v4.json - ["*","text"] in Resource - two element with []
+* date.json - "*" in Resource
+* date_v1.json - "text" in Resource
+* date_v2.json - Error in name PolicyDocument
+* date_v3.json - ["*"] in Resource - one element with []
+* date_v4.json - ["*","text"] in Resource - two element with []
 
 ## Setup
 To run this project,provide your own path or use the prepared ones by pasting it here
