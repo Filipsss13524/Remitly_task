@@ -34,8 +34,8 @@ to run the tests, run the main_test.py file
 
 ## Technologies
 Project created using:
-*Python 3.10
-*Pandas
-*Pytest
+* Python 3.10
+* Pandas
+* Pytest
 
  
